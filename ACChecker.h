@@ -1,0 +1,2 @@
+bool isACPresent();
+void promptUninstallTool();
