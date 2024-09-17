@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 set location[0]="C:\ProgramData\ASUS\"
-set location[1]="C:\Program Files\ASUS"
+set location[1]="C:\Program Files\ASUS\"
 set location[2]="C:\Program Files (x86)\ASUS\"
 set location[3]="C:\eSupport\"
 set location[4]="C:\Windows\ASUS\"
