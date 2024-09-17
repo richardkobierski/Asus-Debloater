@@ -20,36 +20,36 @@ int controller() {
 void selectiveNuker(int ID) {
     switch (ID) {
         case 1:
-            std::system("start taskkiller.bat");
+            std::system("start tasks.bat");
             std::this_thread::sleep_for(std::chrono::seconds(5));
-            std::system("start programNuker.bat");
-            std::system("start regNuker.bat");
-            std::system("start serviceNuker.bat");
+            std::system("start program.bat");
+            std::system("start registry.bat");
+            std::system("start service.bat");
             std::this_thread::sleep_for(std::chrono::seconds(5));
             std::system("start prevention.bat");
             break;
         case 2:
-            std::system("start taskkiller.bat");
+            std::system("start tasks.bat");
             std::this_thread::sleep_for(std::chrono::seconds(5));
             std::system("start prevention.bat");
             break;
         case 3:
-            std::system("start taskkiller.bat");
+            std::system("start tasks.bat");
             std::this_thread::sleep_for(std::chrono::seconds(5));
-            std::system("start programNuker.bat");
+            std::system("start program.bat");
             break;
         case 4:
-            std::system("start taskkiller.bat");
+            std::system("start tasks.bat");
             std::this_thread::sleep_for(std::chrono::seconds(5));
-            std::system("start regNuker.bat");
+            std::system("start registry.bat");
             break;
         case 5:
-            std::system("start taskkiller.bat");
+            std::system("start tasks.bat");
             std::this_thread::sleep_for(std::chrono::seconds(5));
-            std::system("start serviceNuker.bat");
+            std::system("start service.bat");
             break;
         case 6:
-            //std::system("start startupNuker.bat");
+            //std::system("start startup.bat");
             //std::this_thread::sleep_for(std::chrono::seconds(5));
             std::cout << "This option is currently unstable and is disabled." << std::endl;
             std::cout << "Option: Manually open task schedule and delete all mentions of ASUS." << std::endl;
