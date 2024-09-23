@@ -12,5 +12,6 @@ This tool ensures that any invasive Asus programs on your machine are removed an
 ## How it works
 **Option 1:**
 Download the debloat.exe file and run the program as administrator.
+
 **Option 2:**
 Download the .bat scripts and run each script as administrator.
