@@ -14,3 +14,4 @@ for /l %%i in (0,1,3) do (
     ) else (
         sc delete !services[%%i]!
 ))
+exit

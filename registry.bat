@@ -8,3 +8,4 @@ for /l %%i in (0,1,1) do (
     echo Attempting to remove !location[%%i]!...
     reg delete !location[%%i]! /f
 )
+exit

@@ -10,3 +10,4 @@ for /f "tokens=2 delims=:" %%i in (%TEMP%\processes.txt) do (
 )
 echo Done killing tasks
 del %TEMP%\processes.txt
+exit

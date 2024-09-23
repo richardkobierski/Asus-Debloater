@@ -27,3 +27,4 @@ for /l %%i in (0,1,3) do (
     ) else (
         copy NUL "!location[%%i]!\ASUS"
 ))
+exit

@@ -15,3 +15,4 @@ for /l %%i in (0,1,4) do (
     ) else (
         echo !location[%%i]! does not exist, skipping...
 ))
+exit
